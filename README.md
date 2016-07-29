@@ -1,2 +1,2 @@
 # umnagendra.github.io
-Code for my personal website http://nagendra.xyz
+Code for my personal website: http://nagendra.xyz
