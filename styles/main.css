@@ -1,14 +1,29 @@
 body {
     margin: 0;
     text-align: center;
-    color: #444;
+    color: #444444;
 }
 
 header {
     background: #f7f7f7;
-    padding: 3em 0 3em 0;
+    padding: 2em 0 0.5em 0;
     font-family: 'Open Sans:800i', serif;
     font-style: italic;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+article {
+    font-family: 'Open Sans:300', sans-serif;
+}
+
+i {
+    font-style: bold;
+    font-size: 2em; !important;
 }
 
 .profile_img {
@@ -24,4 +39,20 @@ header {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.links {
+    background-color: #f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links > a {
+    padding: 0.15em 0.5em 0.15em 0.5em;
+    text-decoration: none;
+    color: #444444;
+}
+
+.links > a:visited {
+    color: #444444;
 }
